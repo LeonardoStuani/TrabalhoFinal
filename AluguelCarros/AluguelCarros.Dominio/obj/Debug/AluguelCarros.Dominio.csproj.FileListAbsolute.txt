@@ -1,0 +1,6 @@
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Dominio\bin\Debug\AluguelCarros.Dominio.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Dominio\bin\Debug\AluguelCarros.Dominio.pdb
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Dominio\obj\Debug\AluguelCarros.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Dominio\obj\Debug\AluguelCarros.Dominio.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Dominio\obj\Debug\AluguelCarros.Dominio.pdb
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Dominio\obj\Debug\AluguelCarros.Dominio.csprojAssemblyReference.cache

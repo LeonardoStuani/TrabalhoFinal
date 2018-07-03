@@ -1,0 +1,17 @@
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\AluguelCarros.Comuns.Testes.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\AluguelCarros.Comuns.Testes.pdb
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\AluguelCarros.Dominio.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\AluguelCarros.Dominio.pdb
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\obj\Debug\AluguelCarros.Comuns.Testes.csprojAssemblyReference.cache
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\obj\Debug\AluguelCarros.Comuns.Testes.csproj.CoreCompileInputs.cache
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\obj\Debug\AluguelCarros.Comuns.Testes.csproj.CopyComplete
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\obj\Debug\AluguelCarros.Comuns.Testes.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\obj\Debug\AluguelCarros.Comuns.Testes.pdb
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\AluguelCarros.Comuns.Testes.dll.config
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\AluguelCarros.Infra.Dados.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\EntityFramework.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\AluguelCarros.Infra.Dados.pdb
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\AluguelCarros.Infra.Dados.dll.config
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\EntityFramework.xml
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Comuns.Testes\bin\Debug\EntityFramework.SqlServer.xml

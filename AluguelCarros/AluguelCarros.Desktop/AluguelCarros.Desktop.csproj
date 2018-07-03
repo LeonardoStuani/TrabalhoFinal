@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{236A9749-BC37-4D67-9A5C-31F516BE552B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AluguelCarros.Desktop</RootNamespace>
+    <AssemblyName>AluguelCarros.Desktop</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\Alugueis\AluguelDevolverDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\Alugueis\AluguelDevolverDialog.Designer.cs">
+      <DependentUpon>AluguelDevolverDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Alugueis\AluguelDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\Alugueis\AluguelDialog.Designer.cs">
+      <DependentUpon>AluguelDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Alugueis\AluguelFormularioGerenciador.cs" />
+    <Compile Include="Features\Alugueis\AluguelUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Features\Alugueis\AluguelUserControl.Designer.cs">
+      <DependentUpon>AluguelUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Carros\CarroDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\Carros\CarroDialog.Designer.cs">
+      <DependentUpon>CarroDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Carros\CarroFormularioGerenciador.cs" />
+    <Compile Include="Features\Carros\CarroUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Features\Carros\CarroUserControl.Designer.cs">
+      <DependentUpon>CarroUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Clientes\ClienteDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\Clientes\ClienteDialog.Designer.cs">
+      <DependentUpon>ClienteDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Clientes\ClienteFormularioGerenciador.cs" />
+    <Compile Include="Features\Clientes\ClienteUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Features\Clientes\ClienteUserControl.Designer.cs">
+      <DependentUpon>ClienteUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Enderecos\EnderecoDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\Enderecos\EnderecoDialog.Designer.cs">
+      <DependentUpon>EnderecoDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Enderecos\EnderecoFormularioGerenciador.cs" />
+    <Compile Include="Features\Enderecos\EnderecoUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Features\Enderecos\EnderecoUserControl.Designer.cs">
+      <DependentUpon>EnderecoUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioGerenciador.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Features\Alugueis\AluguelDevolverDialog.resx">
+      <DependentUpon>AluguelDevolverDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Alugueis\AluguelDialog.resx">
+      <DependentUpon>AluguelDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Alugueis\AluguelUserControl.resx">
+      <DependentUpon>AluguelUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Carros\CarroDialog.resx">
+      <DependentUpon>CarroDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Carros\CarroUserControl.resx">
+      <DependentUpon>CarroUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Clientes\ClienteDialog.resx">
+      <DependentUpon>ClienteDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Clientes\ClienteUserControl.resx">
+      <DependentUpon>ClienteUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Enderecos\EnderecoDialog.resx">
+      <DependentUpon>EnderecoDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\Enderecos\EnderecoUserControl.resx">
+      <DependentUpon>EnderecoUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AluguelCarros.Aplicacao\AluguelCarros.Aplicacao.csproj">
+      <Project>{19E6535F-CB25-437A-9278-3023CBDD8F1B}</Project>
+      <Name>AluguelCarros.Aplicacao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AluguelCarros.Dominio\AluguelCarros.Dominio.csproj">
+      <Project>{5EC4C17F-0483-4CB8-BAD4-62AA7C4F5563}</Project>
+      <Name>AluguelCarros.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AluguelCarros.Infra.Dados\AluguelCarros.Infra.Dados.csproj">
+      <Project>{1B701525-41F2-4655-B44D-DFAE0F2D5D3B}</Project>
+      <Name>AluguelCarros.Infra.Dados</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

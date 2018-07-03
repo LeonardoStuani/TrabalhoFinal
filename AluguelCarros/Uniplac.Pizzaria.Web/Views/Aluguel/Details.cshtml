@@ -1,0 +1,66 @@
+﻿@model AluguelCarros.Dominio.Features.Alugueis.Aluguel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Aluguel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HorasTotal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HorasTotal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataEntrada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataEntrada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataDevolucao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataDevolucao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValorTotal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValorTotal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pagamento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pagamento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

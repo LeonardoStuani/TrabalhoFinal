@@ -1,0 +1,14 @@
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\bin\Debug\AluguelCarros.Infra.Dados.dll.config
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\bin\Debug\AluguelCarros.Infra.Dados.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\bin\Debug\AluguelCarros.Infra.Dados.pdb
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\bin\Debug\AluguelCarros.Dominio.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\bin\Debug\EntityFramework.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\bin\Debug\AluguelCarros.Dominio.pdb
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\bin\Debug\EntityFramework.xml
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\obj\Debug\AluguelCarros.Infra.Dados.csprojAssemblyReference.cache
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\obj\Debug\AluguelCarros.Infra.Dados.csproj.CoreCompileInputs.cache
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\obj\Debug\AluguelCarros.Infra.Dados.csproj.CopyComplete
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\obj\Debug\AluguelCarros.Infra.Dados.dll
+C:\Users\ander\source\repos\AluguelCarros\AluguelCarros.Infra.Dados\obj\Debug\AluguelCarros.Infra.Dados.pdb
